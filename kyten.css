@@ -1,0 +1,52 @@
+/* Há»™p thoáº¡i xÃ¡c nháº­n xÃ³a chá»¯ kÃ½ */
+#deleteDialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  width: auto;
+  min-width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  display: none;
+  z-index: 1000;
+}
+
+#deleteDialog p {
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+#deleteDialog_group_button {
+  display: flex;
+  justify-content: center;
+}
+#deleteDialog button {
+  margin: 5px;
+  padding: 15px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+#confirmDelete {
+  background-color: rgb(206, 0, 0);
+  color: white;
+}
+
+/* Äá»‹nh dáº¡ng chá»¯ kÃ½ khi Ä‘Æ°á»£c chá»n */
+#previewContainer .selected {
+  border: 2px solid red;
+  box-sizing: border-box;
+}
+
+/* Äáº£m báº£o táº¥t cáº£ há»™p thoáº¡i áº©n khi chÆ°a Ä‘Æ°á»£c kÃ­ch hoáº¡t */
+.hidden {
+  display: none;
+}
+
+canvas {
+  touch-action: none;
+}
