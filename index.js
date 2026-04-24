@@ -63,6 +63,7 @@ document
     });
   });
 
+
 function changeTaret() {
   var urlString = window.location.href;
   var url = new URL(urlString);
